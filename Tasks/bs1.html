@@ -14,8 +14,13 @@
         .bg-cyan{
             background-color: aqua
         }
+        .nav-link.text-white:hover {
+          background-color: #00b7ff; 
+          color: #FFFFFF; 
+        }
 
     </style>
+
   </head>
 
   <body>
@@ -28,13 +33,21 @@
         </header>
     </div>
 
-        <div class="nav bg-secondary">
-            <a href="#" class="nav-link text-white">HOME</a>
-            <a href="#" class="nav-link text-white">MENU</a>
-            <a href="#" class="nav-link text-white">ABOUT</a>
-            <a href="#" class="nav-link text-white">CONTACT</a>
-            <a href="#" class=" nav-link text-white">SIGN UP</a>
-            <a href="#" class=" nav-link text-white">LOGIN</a>
+        <div class="row  bg-secondary">
+          <div class="col-10 text-center">
+            <div class="nav">
+              <a href="#" class="nav-link text-white">HOME</a>
+              <a href="#" class="nav-link text-white">MENU</a>
+              <a href="#" class="nav-link text-white">ABOUT</a>
+              <a href="#" class="nav-link text-white">CONTACT</a>
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <div class="nav">
+                <a href="#" class="nav-link text-white">SIGN UP</a>
+                <a href="#" class="nav-link text-white">LOGIN</a>
+            </div>
+          </div>
         </div>
         
     <main>
@@ -44,15 +57,15 @@
       </div> -->
       <div class="container mt-5">
         <div class="row">
-            <div class="col-md-11 bg-light">
+            <div class="col-md-11">
                 <p class=" text-center">
                   Write your content here.
                 </p>
             </div>
 
-            <div class="col-md-1 bg-secondary">
+            <div class="col-md-1">
                 <p class="text-center">
-                    This is
+                    Bootstrap Task 1
                 </p>
             </div>
         </div>
